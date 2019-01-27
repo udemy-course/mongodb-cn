@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Jack",
+        "age": 27,
+        "hobby": [
+            {
+                "type": "Movie",
+                "rating": 3
+            },
+            {
+                "type": "Sports",
+                "rating": 6
+            }
+        ]
+    },
+    {
+        "name": "Mark",
+        "age": 25,
+        "hobby": [
+            {
+                "type": "Movie",
+                "rating": 2
+            },
+            {
+                "type": "Cook",
+                "rating": 5
+            },
+            {
+                "type": "Music",
+                "rating": 4
+            }
+        ]
+    }
+]

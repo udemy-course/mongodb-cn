@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Jack",
+        "amount": 500,
+        "status": "finished"
+    },
+    {
+        "name": "Jack",
+        "amount": 250,
+        "status": "finished"
+    },
+    {
+        "name": "Mark",
+        "amount": 200,
+        "status": "finished"
+    },
+    {
+        "name": "Mark",
+        "amount": 300,
+        "status": "waiting"
+    }
+]
