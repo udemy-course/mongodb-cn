@@ -1,0 +1,56 @@
+db.dropDatabase()
+
+db.customer.insertMany(
+[
+    {
+        "_id": 1,
+        "name": "John Cart",
+        "email": "jc@jc.com",           
+        "phone": 12345,
+        "orders": [1, 2, 3]
+    },
+    {
+        "_id": 2,
+        "name": "Arber Su",
+        "email": "as@as.com",           
+        "phone": 56789,
+        "orders": [4, 5]
+    }
+])
+
+db.order.insertMany(
+[
+    {
+        "_id": 1,
+        "date": "2018-12-10",
+        "product": "book",
+        "cost": 19.99
+    },
+    {   
+        "_id": 2,
+        "date": "2018-12-13",
+        "product": "book",
+        "cost": 39.99
+    },
+    {   
+        "_id": 3,
+        "date": "2018-12-22",
+        "product": "computer",
+        "cost": 2899
+    },
+    {
+        "_id": 4,
+        "date": "2018-12-01",
+        "product": "book",
+        "cost": 19.99
+    },
+    {   
+        "_id":5,
+        "date": "2018-12-29",
+        "product": "computer",
+        "cost": 2899
+    }
+]
+)
+
+db.customer.aggregate([{$lookup: {from: "order", localField:"orders",foreignField: "_id", as: "order_details"}}]).pretty()
