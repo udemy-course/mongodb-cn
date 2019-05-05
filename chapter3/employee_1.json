@@ -1,0 +1,65 @@
+[
+    {
+        "first_name": "Robin",
+        "last_name": "Jackman",
+        "title": "Software Engineer",
+        "salary": 5500,
+        "hire_date": "2001-10-12"
+    },
+    {
+        "first_name": "Taylor",
+        "last_name": "Edward",
+        "title": "Software Architect",
+        "salary": 7200,
+        "hire_date": "2002-09-21"
+    },
+    {
+        "first_name": "Vivian",
+        "last_name": "Dickens",
+        "title": "Database Administrator",
+        "salary": 6000,
+        "hire_date": "2012-08-29"
+    },
+    {
+        "first_name": "Harry",
+        "last_name": "Clifford",
+        "title": "Database Administrator",
+        "salary": 6800,
+        "hire_date": "2015-12-10"
+    },
+    {
+        "first_name": "Eliza",
+        "last_name": "Clifford",
+        "title": "Software Engineer",
+        "salary": 4750,
+        "hire_date": "1998-10-19"
+    },
+    {
+        "first_name": "Nancy",
+        "last_name": "Newman",
+        "title": "Software Engineer",
+        "salary": 5100,
+        "hire_date": "2007-01-23"
+    },
+    {
+        "first_name": "Melinda",
+        "last_name": "Clifford",
+        "title": "Project Manager",
+        "salary": 8500,
+        "hire_date": "2013-10-29"
+    },
+    {
+        "first_name": "Jack",
+        "last_name": "Chan",
+        "title": "Test Engineer",
+        "salary": 6500,
+        "hire_date": "2018-09-07"
+    },
+    {
+        "first_name": "Harley",
+        "last_name": "Gilbert",
+        "title": "Software Architect",
+        "salary": 8000,
+        "hire_date": "2000-07-17"
+    }
+]

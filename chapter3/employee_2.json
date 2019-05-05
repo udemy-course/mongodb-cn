@@ -1,0 +1,50 @@
+[
+    {
+        "first_name": "Robin",
+        "last_name": "Jackman",
+        "title": "Software Engineer",
+        "salary": 5500,
+        "hire_date": "2001-10-12",
+        "hobby": ["book", "movie"],
+        "contact": {
+            "email": "rj@jackman.com",
+            "phone": 1111
+        }
+    },
+    {
+        "first_name": "Taylor",
+        "last_name": "Edward",
+        "title": "Software Architect",
+        "salary": 7200,
+        "hire_date": "2002-09-21",
+        "hobby": ["travel", "hiking"],
+        "contact": {
+            "email": "te@edward.com",
+            "phone": 2222
+        }
+    },
+    {
+        "first_name": "Vivian",
+        "last_name": "Dickens",
+        "title": "Database Administrator",
+        "salary": 6000,
+        "hire_date": "2012-08-29",
+        "hobby": ["travel", "music"],
+        "contact": {
+            "email": "vd@dickens.com",
+            "phone": 3333
+        }
+    },
+    {
+        "first_name": "Harry",
+        "last_name": "Clifford",
+        "title": "Database Administrator",
+        "salary": 6800,
+        "hire_date": "2015-12-10",
+        "hobby": ["book", "gym"],
+        "contact": {
+            "email": "hc@clifford.com",
+            "phone": 4444
+        }
+    }
+]

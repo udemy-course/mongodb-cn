@@ -1,0 +1,16 @@
+[
+    {
+        "first_name": "Robin",
+        "last_name": "Jackman",
+        "title": "Software Engineer",
+        "salary": 3000,
+        "Internship": true
+    },
+    {
+        "first_name": "Taylor",
+        "last_name": "Edward",
+        "title": "Software Architect",
+        "salary": 7500,
+        "Internship": false
+    }
+]
