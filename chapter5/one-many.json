@@ -1,0 +1,54 @@
+# customers
+
+{
+    "_id": 1,
+    "name": "John Cart",
+    "email": "jc@jc.com",
+    "phone": 12345,
+    "orders": [
+        {
+            "date": "2018-12-10",
+            "product": "book",
+            "cost": 19.99
+        },
+        {
+            "date": "2018-12-13",
+            "product": "book",
+            "cost": 39.99
+        },
+        {
+            "date": "2018-12-22",
+            "product": "computer",
+            "cost": 2899
+        }
+    ]
+}
+
+{
+    "_id": 1,
+    "name": "John Cart",
+    "email": "jc@jc.com",
+    "phone": 12345,
+    "orders": [1, 2, 3]
+}
+
+# orders
+
+
+[
+    {
+        "date": "2018-12-10",
+        "product": "book",
+        "cost": 19.99
+    },
+    {
+        "date": "2018-12-13",
+        "product": "book",
+        "cost": 39.99
+    },
+    {
+        "date": "2018-12-22",
+        "product": "computer",
+        "cost": 2899
+    }
+]
